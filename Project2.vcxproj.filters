@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\llm">
+      <UniqueIdentifier>{1a367229-4854-4144-b8f2-36a86776021f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ocr">
+      <UniqueIdentifier>{dd060d3a-ccd2-47d7-a08f-c7c9c19c11c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\db">
+      <UniqueIdentifier>{a07f694e-5a5c-4087-9117-ea97af936897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\receipts">
+      <UniqueIdentifier>{3e0e2a79-3541-4096-9971-4c913f6e98ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tesseract_helper.cpp">
+      <Filter>Source Files\ocr</Filter>
+    </ClCompile>
+    <ClCompile Include="openai_client.cpp">
+      <Filter>Source Files\llm</Filter>
+    </ClCompile>
+    <ClCompile Include="db_helper.cpp">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tesseract_helper.h">
+      <Filter>Source Files\ocr</Filter>
+    </ClInclude>
+    <ClInclude Include="openai_client.h">
+      <Filter>Source Files\llm</Filter>
+    </ClInclude>
+    <ClInclude Include="db_helper.h">
+      <Filter>Source Files\db</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".env" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="receipt1.jpg">
+      <Filter>Source Files\receipts</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
