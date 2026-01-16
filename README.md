@@ -55,3 +55,6 @@ Total 320
 Sending to Groq AI for categorization...
 Saved: SuperMart | Grocery | Rs 320 | 2026-01-15
 Expense saved successfully
+## 📸 Screenshots
+
+![Screenshot 194](Screenshot%20(194).png)
